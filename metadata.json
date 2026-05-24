@@ -1,0 +1,6 @@
+{
+  "name": "Workflow Automation Builder",
+  "description": "An interactive visual node-based workflow automation and DAG builder with a validation engine and rich, customizable nodes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
