@@ -1,4 +1,4 @@
-## VectorShift Workflow Automation Workspace & Validation Engine
+## VectorShift's Workflow Automation Workspace & Validation Engine for technical Assessment
 A production-grade, highly reactive visual pipeline builder paired with an optimized graph-theoretic validation backend. This workspace allows users to design complex, multi-step generative AI workflows using a unified node abstraction framework, featuring dynamic parameter parsing and defensive edge verification.
 ## 🚀 Technical Highlights & Core Architecture ## 
 1.Unified Node Abstraction (BaseNode.tsx)To avoid code duplication and boilerplate layout logic across individual node interfaces, the frontend implements a single, parameter-driven <BaseNode /> container. This handles:
