@@ -1,5 +1,5 @@
 import React, { useState, useRef, useCallback } from 'react';
-import ReactFlow, { Controls, Background, MiniMap } from 'reactflow';
+import ReactFlow, { Controls, Background, MiniMap, ConnectionLineType } from 'reactflow';
 import { useStore } from '../store';
 
 // Import all 9 custom node types
@@ -111,7 +111,7 @@ export const PipelineUI: React.FC = () => {
         proOptions={proOptions}
         snapToGrid
         snapGrid={[gridSize, gridSize]}
-        connectionLineType="smoothstep"
+        connectionLineType={ConnectionLineType.SmoothStep}
         className="w-full h-full"
       >
         <Background color="#cbd5e1" gap={gridSize} size={1} />

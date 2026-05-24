@@ -1,6 +1,7 @@
 import React, { useCallback, useMemo, useRef, useState } from 'react';
 import ReactFlow, {
   Background,
+  ConnectionLineType,
   Controls,
   MiniMap,
   type Node,
@@ -154,7 +155,7 @@ export const PipelineCanvas: React.FC = () => {
         onDrop={onDrop}
         snapToGrid
         snapGrid={[gridSize, gridSize]}
-        connectionLineType="smoothstep"
+        connectionLineType={ConnectionLineType.SmoothStep}
         className="w-full h-full"
         proOptions={proOptions}
       >
