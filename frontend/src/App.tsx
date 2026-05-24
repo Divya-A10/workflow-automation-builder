@@ -4,14 +4,14 @@
  */
 
 import { PipelineToolbar } from './components/toolbar';
-import { PipelineUI } from './components/ui';
+import { PipelineCanvas } from './PipelineCanvas';
 import { SubmitButton } from './components/submit';
 
 export default function App() {
   return (
     <div className="flex flex-col h-screen w-screen overflow-hidden bg-slate-50 font-sans">
       <PipelineToolbar />
-      <PipelineUI />
+      <PipelineCanvas />
       <SubmitButton />
     </div>
   );
